@@ -32,3 +32,5 @@ The key functionalities of this app are summarized as bolow:
 ### [View the Web Demo](https://meal-delivery-three.vercel.app)
 ### [React GitHub](https://github.com/jglchen/meal-delivery)
 ### Docker: docker run -p 3000:3000 jglchen/meal-delivery
+
+{% include giscus.html %}
