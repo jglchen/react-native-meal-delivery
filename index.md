@@ -23,11 +23,13 @@ The key functionalities of this app are summarized as bolow:
 9. Regular users can track down all their purchase order records.
 10. Restaurant owners can examine all the clients, which have placed orders at their restaurants, and their purchase order records.
 
-**iOS** and **Android** mobile apps are developed with **React Native**, anyone who is interested can test the apps through the [Expo Publish Link](https://expo.dev/@jglchen/meal-delivery) with [Expo Go](https://expo.dev/client) app.
+**iOS** and **Android** mobile apps are developed with **React Native**, anyone who is interested can test the development builds with [iOS Simulator Build](https://expo.dev/accounts/jglchen/projects/meal-delivery/builds/47dc5625-473d-433e-b9e4-7c4d39b491a0) and [Android Development Build](https://expo.dev/accounts/jglchen/projects/meal-delivery/builds/d028913d-8994-4479-8974-37f4503c7ac0).
+
 
 ![react-native-meal-delivery-screenshot](/images/react-native-meal-delivery-screenshot.png)
 
-### [React Native Expo Publish](https://expo.dev/@jglchen/meal-delivery)
+### [iOS Simulator Build](https://expo.dev/accounts/jglchen/projects/meal-delivery/builds/47dc5625-473d-433e-b9e4-7c4d39b491a0)
+### [Android Development Build](https://expo.dev/accounts/jglchen/projects/meal-delivery/builds/d028913d-8994-4479-8974-37f4503c7ac0)
 ### [React Native GitHub](https://github.com/jglchen/react-native-meal-delivery)
 ### [View the Web Demo](https://meal-delivery-three.vercel.app)
 ### [React GitHub](https://github.com/jglchen/meal-delivery)
