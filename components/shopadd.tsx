@@ -59,16 +59,26 @@ function ShopAdd({closeModal}: PropsType){
           allowsEditing:true
         });
     
-        if (!result.cancelled) {
-          setSelectedImage(result.uri);
-          setImgDimension({width: result.width, height: result.height});
-          let imgSizeRemark = `width: ${result.width}, height: ${result.height}.`;
-          if (result.width > maxImageWidth){
+        if (!result.canceled && result.assets) {
+          setSelectedImage(result.assets[0].uri);
+          setImgDimension({width: result.assets[0].width, height: result.assets[0].height});
+          let imgSizeRemark = `width: ${result.assets[0].width}, height: ${result.assets[0].height}.`;
+          if (result.assets[0].width > maxImageWidth){
              imgSizeRemark += ` The app will not accept images with a width larger than ${maxImageWidth}px, please resize the image before uploading.`;
           }
           setSelectImgErr(imgSizeRemark);
         }
-    };
+        /*
+        if (!result.cancelled) {
+            setSelectedImage(result.uri);
+            setImgDimension({width: result.width, height: result.height});
+            let imgSizeRemark = `width: ${result.width}, height: ${result.height}.`;
+            if (result.width > maxImageWidth){
+               imgSizeRemark += ` The app will not accept images with a width larger than ${maxImageWidth}px, please resize the image before uploading.`;
+            }
+            setSelectImgErr(imgSizeRemark);
+        }*/
+      };
  
     function resetErrMsg(){
         setShopNameErr('');

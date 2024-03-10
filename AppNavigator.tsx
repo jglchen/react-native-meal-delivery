@@ -102,7 +102,7 @@ export default function AppNavigator() {
           component={OrderStack}
           options={{ headerShown: false, tabBarLabel: 'Order Meals',
           tabBarIcon: ({ focused, color, size }) => {
-            const iconName = focused ? 'ios-fast-food' : 'ios-fast-food-outline';
+            const iconName = focused ? 'fast-food' : 'fast-food-outline';
             return <Ionicons name={iconName} size={size} color={color} />;
           },
         }} />
